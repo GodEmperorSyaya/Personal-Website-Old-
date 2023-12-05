@@ -1,0 +1,4907 @@
+/* max-width and min-width is the size of the screen not the device----------- */
+/* max-device-width and min-device-width is the size of the device not the screen----------- */
+
+/* Desktop and Laptop, min-width equals the container size----------- */
+/* min-width, the minimum and up----------- */
+@media all 
+and (min-width: 900px) {
+
+	body {
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; /*sets a font face to the whole site*/
+		font-size: 1em; /*sets a font size to the whole site*/
+		line-height: 1em; /*sets a font height or leading to the whole site*/
+		color: black; /*sets a font color to the whole site*/
+		margin: 0px auto;
+		max-width: 900px;
+	}
+	
+	#container_home{
+		min-width: 900px;
+		margin: 0px auto;
+		position: relative;
+		background-color: #58658c;
+	}
+	
+	#mike{
+		color: #58658c;
+		position: relative;
+		background-color: white;
+		padding-bottom: 20%;
+	}	
+	
+	#nav_home{
+		text-align: center;
+		padding: 5%;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		margin: auto;
+	}
+	
+	ul{
+		list-style-type: none;
+	}
+	
+	li{
+		display: inline;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+
+	#h_home{
+		margin: 6%;
+		color: #58658c;
+	}
+	
+	#h_home:hover{
+		text-decoration: underline;
+	}
+	
+	#a_home{
+		color: #d8b296;
+		margin: 6%;
+	}
+	
+	#a_home:hover{
+		text-decoration: underline;
+	}
+	
+	#p_home{
+		color: #48625c;
+		margin: 6%;
+	}
+	
+	#p_home:hover{
+		text-decoration: underline;
+	}
+	
+	#c_home{
+		color: #df9292;
+		margin: 6%;
+	}
+	
+	#c_home:hover{
+		text-decoration: underline;
+	}
+	
+	#mike_intro{
+		text-align: left;
+		margin: 15% 15%;
+		line-height: 2em;
+	}
+	
+	#home_float{
+		line-height: 9.5em;
+		width: 100%;
+		position: absolute;                                       
+   		transform: translate(0, -50%);
+		z-index: 1000;
+	}
+	
+	#mike_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #58658c;
+		left: -1.5%;
+		letter-spacing: -0.02em;
+		margin-top: 0.75%;	
+	}
+	
+	#huynh_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: -1.65%;
+		letter-spacing: -0.02em;
+		margin-top: -1.1%;
+	}
+	
+	#huynh{
+		background-color: #58658c;
+		color: white;
+		position: relative;
+		padding-bottom: 15%;
+		padding-top: 20%;
+	}
+	
+	#huynh_intro{
+		text-align: right;
+		margin: 20% 15% 30% 0;
+		line-height: 2em;
+	}
+	
+	footer{
+		background-color: white;
+		position: relative;
+		bottom: 0;
+		left: 0;
+		height: 45px;
+		color: #58658c;
+		text-align: center;
+		font-size: 90%;
+	}	
+	
+	#footer_home img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: 1% 1%;
+		display: inline-block;
+	}
+	
+	#copyright_home{
+		padding-top: 1.5%;
+		padding-right: 17%;
+		float: right;
+		display: inline-block;
+	}
+	
+	#container_art{
+		min-width: 900px;
+		margin: 0px auto;
+		position: relative;
+		background-color: #d8b296;
+	}
+	
+	#Art{
+		height: 350px;
+		background-color: white;
+	}
+	
+	#nav_artwork{
+		text-align: right;
+		margin: auto;
+		color: #d8b296;
+		padding: 4% 2%;
+	}
+	
+	#h_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#h_art:hover{
+		text-decoration: underline;
+	}
+	
+	#a_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#a_art:hover{
+		text-decoration: underline;
+	}
+	
+	#p_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#p_art:hover{
+		text-decoration: underline;
+	}
+	
+	#c_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#c_art:hover{
+		text-decoration: underline;
+	}
+	
+	#work{
+		background-color: #d8b296;
+	}
+	
+	#artwork_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+		overflow: hidden;
+	}
+	
+	#art_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #d8b296;
+		left: 0;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#work_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 0;
+		letter-spacing: -0.04em;
+		margin-top: -1%;
+	}
+	
+	#work_intro{
+		color: white;
+		text-align: left;
+		margin-top: 30%;
+		line-height: 2em;
+		margin-left: 10%;
+		padding-bottom: 10%;
+	}
+	
+	#gallery{
+		position: relative;
+		padding-bottom: 35%;
+		padding-left: 9%;
+	}
+
+	#p1_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		position: absolute;
+		margin-left: 2%;
+	}
+	
+	#as_1{
+		color: #d8b296;
+		position: absolute;
+		margin-top: 4%;
+		margin-left: 2%;
+		line-height: 2em;
+		width: 20%;
+	}
+	
+	#project_1{
+		cursor: pointer;
+		background-color: white;
+		width: 100%;
+		padding-bottom: 20%;
+		padding-top: 20%;
+	}
+	
+	#pop_1{
+		width: 600px;
+		height: 300px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		left: 30%;
+		border-radius: 10px;
+		padding-top: 10%;
+	}
+	
+	#box_1 img{
+		display: none;
+		position: absolute;
+	}
+	
+	#box_1 .active_1{
+		display: block;
+		float: left;
+	}
+	
+	#pic_1{
+		width: 42%;
+		height: 88%;
+		margin-top: -11%;
+		margin-left: 29.5%;
+	}
+	
+	[id^=pic_]{
+		width: 88%;
+		height: 88%;
+		margin-top: -11.5%;
+		margin-left: 6%;
+	}
+	
+	#pic_14{
+		width: 90%;
+		height: 75%;
+		margin-top: -8%;
+		margin-left: 5%;
+	}
+	
+	#la_p1{
+		font-size: 4em;
+		margin-top: 14%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p1{
+		font-size: 4em;
+		margin-top: 14%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#project_2{
+		width: 100%;
+		padding-bottom: 20%;
+		padding-top: 20%;
+	}
+	
+	#pop_2{
+		background-color: #383739;
+		width: 400px;
+		height: 500px;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		left: 5%;
+		border-radius: 10px;
+	}
+	
+	#box_2 img{
+		display: none;
+	}
+	
+	#box_2 .active_2{
+		display: block;
+		float: left;
+	}
+	
+	[id^=danny_]{
+		width: 85%;
+		height: 85%;
+		margin-top: 8%;
+		margin-left: 5%;
+	}
+	
+	#la_p2{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	#ra_p2{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+	}
+	
+	#p2_title{
+		text-align: right;
+		right: 5%;
+		position: absolute;
+		width: 100%;
+		margin-top: 1%;
+	}
+	
+	#as_2{
+		text-align: right;
+		right: 5%;
+		color: white;
+		margin-top: 5%;
+		position: absolute;
+		width: 30%;
+		line-height: 2em;
+	}
+	
+	#project_3{
+		width: 100%;
+		background-color: white;
+		padding-top: 20%;
+		padding-bottom: 15%;
+		text-align: center;
+	}
+	
+	#box_3 img{
+		display: none;
+	}
+	
+	#box_3 .active_3{
+		display: block;
+		float: left;
+	}
+	
+	#pop_3{
+		width: 700px;
+		height: 450px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		padding-top: 10%;
+		display: inline-block;
+	}
+	
+	#women_1{
+		width: 65%;
+		height: 65%;
+		margin-top: -6.5%;
+		margin-left: 16.5%;
+	}
+	
+	[id^=women_]{
+		width: 93%;
+		height: 93%;
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+	
+	#la_p3{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p3{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#p3_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: -10%;
+		position: relative;
+	}
+	
+	#as_3{
+		color: #d8b296;
+		margin-top: 4%;
+		line-height: 2em;
+		padding-bottom: 8%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#project_5{
+		width: 100%;
+		padding-bottom: 20%;
+		padding-top: 20%;
+	}
+	
+	#pop_5{
+		background-color: #383739;
+		width: 400px;
+		height: 500px;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		left: 48%;
+		border-radius: 10px;
+	}
+	
+	#p5_title{
+		text-align: left;
+		left: 5%;
+		position: absolute;
+		width: 100%;
+		margin-top: 1%;
+	}
+	
+	#as_5{
+		text-align: left;
+		left: 5%;
+		color: white;
+		margin-top: 5%;
+		position: absolute;
+		line-height: 2em;
+		width: 30%;
+	}
+	
+	#box_5 img{
+		display: none;
+	}
+	
+	#box_5 .active_5{
+		display: block;
+		float: left;
+	}
+	
+	[id^=mobile_]{
+		width: 60%;
+		height: 60%;
+		margin-top: 9%;
+		margin-left: 19%;
+	}
+	
+	#la_p5{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	#ra_p5{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+	}
+	
+	#p4_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		position: absolute;
+		right: 4%;
+		text-align: right;
+		width: 20%;
+	}
+	
+	#as_4{
+		text-align: right;
+		color: #d8b296;
+		position: absolute;
+		margin-top: 4%;
+		right: 4%;
+		line-height: 2em;
+		width: 20%;
+	}
+	
+	#project_4{
+		cursor: pointer;
+		background-color: white;
+		width: 100%;
+		padding-bottom: 20%;
+		padding-top: 20%;
+	}
+	
+	#pop_4{
+		width: 600px;
+		height: 325px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		left: 2%;
+		border-radius: 10px;
+	}
+	
+	#box_4 img{
+		display: none;
+		position: absolute;
+	}
+	
+	#box_4 .active_4{
+		display: block;
+		float: left;
+	}
+	
+	[id^=n4cc_]{
+		width: 90%;
+		height: 90%;
+		margin-top: 2.5%;
+		margin-left: 5%;
+	}
+	
+	#la_p4{
+		font-size: 4em;
+		margin-top: 24%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p4{
+		font-size: 4em;
+		margin-top: 24%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#project_6{
+		width: 100%;
+		background-color: #d8b296;
+		padding-top: 5%;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	
+	#box_6 img{
+		display: none;
+	}
+	
+	#box_6 .active_6{
+		display: block;
+		float: left;
+	}
+	
+	#pop_6{
+		width: 700px;
+		height: 450px;
+		background-color: #383739;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		padding-top: 10%;
+		display: inline-block;
+	}
+	
+	#b2_1{
+		width: 50%;
+		height: 50%;
+		margin-top: -11%;
+		margin-left: 23%;
+	}
+	
+	[id^=b2_]{
+		width: 90%;
+		height: 90%;
+		margin-top: -7%;
+		margin-left: 3.5%;
+	}
+	
+	#b2_11{
+		width: 50%;
+		height: 50%;
+		margin-top: -11%;
+		margin-left: 23%;
+	}
+	
+	#la_p6{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: white;
+	}
+	
+	#ra_p6{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: white;
+	}
+	
+	#p6_title{
+		color: white;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#as_6{
+		color: white;
+		margin-top: 4%;
+		line-height: 2em;
+		padding-bottom: 8%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#art_space{
+		padding-bottom: 30%;
+	}
+	
+	#copyright_art{
+		padding-top: 1.4%;
+		padding-right: 17%;
+		float: right;
+		display: inline-block;
+		color: #d8b296;
+	}
+	
+	#footer_art img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: .8% 1%;
+		display: inline-block;
+	}
+	
+	#container_poetry{
+		min-width: 900px;
+		margin: 0px auto;
+		position: relative;
+		background-color: #48625c;
+	}
+	
+	#Poet{
+		height: 350px;
+		background-color: white;
+	}
+	
+	#nav_poetry{
+		text-align: right;
+		margin: auto;
+		color: #48625c;
+		padding: 4% 2%;
+	}
+	
+	#h_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#h_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#a_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#a_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#p_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#p_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#c_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#c_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#ry{
+		background-color: #48625c;
+	}
+	
+	#poetry_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+	}
+	
+	#poet_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #48625c;
+		left: -1.95%;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+	}
+	
+	#ry_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 3%;
+		letter-spacing: -0.04em;
+		padding-top: 18%;
+	}
+	
+	#ry_intro{
+		color: white;
+		text-align: left;
+		padding-top: 25%;
+		line-height: 2em;
+		padding-bottom: 10%;
+		padding-left: 10%;
+	}
+	
+	#alleyway_overlay {
+		position: fixed; 
+		width: 100%; 
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+	}
+	
+	.popup_left{
+		color: white;
+		padding-left: 10%;
+		cursor: pointer;
+	}
+	
+	.popup_left:hover{
+		text-decoration: underline;
+	}
+	
+	.popup_right{
+		text-align: right;
+		padding-right: 10%;
+		cursor: pointer;
+		color: #48625c;
+	}
+	
+	.popup_right:hover{
+		text-decoration: underline;
+	}
+	
+	.opt_out{
+		cursor: pointer;
+		padding-left: 85%;
+		padding-top: 2%;
+	}
+	
+	.opt_out:hover{
+		text-decoration: underline;
+	}
+	
+	#first_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+		text-align: right;
+	}
+	
+	#The_Alleyway{
+		text-align: right;
+		color: #48625c;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 2%;
+	}
+	
+	#alleyway_title{
+		color: #48625c;
+		padding-bottom: 2%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#ap_title{
+		color: white;
+		font-family: "Lust Display Regular";
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#alleyway_popup{
+		width: 85%;
+		height: 500px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 15%;
+		left: 8%;
+		color: white;
+		opacity: 0.9;
+	}
+	
+	.The_Alleyway{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 3%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#second_poem{
+		padding-bottom: 10%;
+	}
+	
+	#Family_secrets{
+		text-align: left;
+		color: white;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 5%;
+		padding-left: 10%;
+	}
+	
+	#ip_title{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#incident_popup{
+		width: 85%;
+		height: 650px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 5%;
+		left: 7.5%;
+		color: white;
+		opacity: 0.9;
+	}
+	
+	#secrets{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 2%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#incident_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+	}
+	
+	#third_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+	}
+	
+	#sex_title{
+		color: #48625c;
+	}
+	
+	#sex{
+		text-align: right;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 5%;
+	}
+	
+	#sex_popup{
+		width: 90%;
+		height: 700px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 1%;
+		left: 5%;
+		color: white;
+		opacity: 0.9;
+	}
+	
+	.sex{
+		padding-left: 5%;
+		line-height: 1.5em;
+		padding-top: 3%;
+		column-count: 3;
+		column-width: 200px;
+		column-gap: 5%;
+	}
+	
+	#sp_title{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#sp_opt{
+		padding-left: 90%;
+	}
+	
+	#sex_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+	
+	#forth_poem{
+		padding-bottom: 10%;
+	}
+	
+	#a_mess{
+		color: white;
+		text-align: left;
+		line-height: 2em;
+		padding-left: 10%;
+		padding-top: 5%;
+	}
+	
+	#mess_popup{
+		width: 75%;
+		height: 450px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 17.5%;
+		left: 12.5%;
+		color: white;
+		opacity: 0.9;
+	}
+	
+	#mp_title{
+		text-align: center;
+		padding-top: 5%;
+		font-size: 1.5em;
+	}
+	
+	#mess{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 5%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#mp_opt{
+		padding-top: 5%;
+	}
+	
+	#mess_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+	
+	#fifth_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+	}
+	
+	#kindness_title{
+		color: #48625c;
+	}
+	
+	#kindness{
+		color: #48625c;
+		text-align: right;
+		padding-top: 5%;
+		line-height: 2em;
+		padding-right: 10%;
+	}
+	
+	#kindness_popup{
+		width: 95%;
+		height: 700px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 1%;
+		left: 2.5%;
+		color: white;
+		opacity: 0.85;
+	}
+
+	#kp_title{
+		text-align: center;
+		padding-top: 2%;
+		font-size: 1.5em;
+	}
+	
+	.kindness{
+		padding-left: 2%;
+		line-height: 1.5em;
+		padding-top: 2%;
+		column-count: 5;
+		column-width: 200px;
+		column-gap: 5%;
+	}
+	
+	#kp_opt{
+		margin-top: -2%;
+		padding-left: 93%;
+	}
+	
+	#kindness_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+	}
+	
+	#space{
+		background-color: #48625c;
+		padding-bottom: 20%;
+	}
+	
+	#space_end{
+		text-align: center;
+		padding-top: 15%;
+		color: white;
+	}
+	
+	header{
+		color: white;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+	}
+	
+	#alleyway_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-left: 10%;
+	}
+	
+	#secrets_title{
+		padding-top:10%;
+		text-align: left;
+		padding-left: 10%;
+	}
+	
+	#sex_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#mess_title{
+		padding-top: 10%;
+		text-align: left;
+		padding-left: 10%;
+	}
+	
+	#kindness_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#copyright_poetry{
+		padding-top: 1.4%;
+		padding-right: 17%;
+		float: right;
+		display: inline-block;
+		color: #48625c;
+	}
+	
+	#footer_poetry img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: .8% 1%;
+		display: inline-block;
+	}
+	
+	#container_contact{
+		min-width: 900px;
+		margin: 0px auto;
+		position: relative;
+		background-color: #df9292;
+	}
+	
+	#Con{
+		height: 350px;
+		background-color: white;
+	}
+	
+	#nav_contact{
+		text-align: right;
+		margin: auto;
+		color: #df9292;
+		padding: 4% 2%;
+	}
+	
+	#h_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#h_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#a_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#a_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#p_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#p_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#c_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#c_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#tact{
+		background-color: #df9292;
+		padding-bottom: 500px;
+	}
+	
+	#contact_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+		overflow :hidden;
+	}
+	
+	#con_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #df9292;
+		left: -1%;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#tact_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 2.12%;
+		letter-spacing: -0.04em;
+		margin-top: -1.1%;
+	}
+	
+	#tact_intro{
+		color: white;
+		text-align: center;
+		padding-top: 25%;
+		line-height: 2em;
+	}
+	
+	#form{
+		position: relative;
+		margin-left: 14%;
+		margin-top: 8%;
+		line-height: 1.5em;
+		background-color: black;
+		opacity: 0.8;
+		width: 72%;
+		padding-top: 6%;
+		padding-bottom: 6%;
+		border-radius: 15px;
+	}
+	
+	form input{
+		width: 80%;
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 2px;
+	}
+	
+	textarea{
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	#submit{
+		width: 82.5%;
+		background-color:aliceblue;
+		border: none;
+		color: #df9292;
+		border-radius: 2px;
+		margin-top: 4%;
+		font-size: 0.95em;
+		height: 40px;
+	}
+	
+	#submit:hover{
+		background-color: #d8b296;
+		color: white;
+	}
+	
+	#submit:focus{
+		outline: none;
+	}
+	
+	input[type=text]{
+		border: none;
+		color: white;
+		padding-left: 1%;
+		height: 25px;
+		background: none;
+		border-bottom: 1.5px solid white;
+		overflow-wrap: break-word;
+		line-height: 1.5em;
+	}
+	
+	::placeholder{
+		color: white;
+		font-style: italic;
+	}
+	
+	input[type=text]:focus{
+		outline:none;
+	}
+	
+	textarea[type=text]{
+		border: none;
+		color: white;
+		padding-left: 2%;
+		background: none;
+		border-bottom: 1.5px solid white;
+		overflow-wrap: break-word;
+		width: 80%;
+		resize:none;
+		height: 300px;
+		line-height: 1.5em;
+	}
+	
+	textarea[type=text]:focus{
+		outline:none;
+	}
+	
+	#name{
+		position: relative;
+	}
+	
+	input:focus ~ #name_label,
+	input:not(:focus):valid ~ #name_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.95em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+
+	#name_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+		margin: 0px auto;
+	}
+	
+	#email_adress{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#email_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	input:focus ~ #email_label,
+	input:not(:focus):valid ~ #email_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#subject{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#subject_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	input:focus ~ #subject_label,
+	input:not(:focus):valid ~ #subject_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#message{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#message_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	textarea:focus ~ #message_label,
+	textarea:not(:focus):valid ~ #message_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#not_form{
+		padding-top: 5%;
+		color: white;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 10%;
+	} 
+	
+	#titles{
+		width: 40%;
+		position: relative;
+		display: inline-block;
+		margin-top: 10%;
+		margin-left: 15%;
+		float: left;
+	}
+	
+	#contact_info{
+		font-family: "Lust Display Regular";
+		padding-bottom: 4%;
+		text-decoration: underline;
+		font-size: 1.25em;
+	}
+	
+	#email_info{
+		width: 30%;
+		position: relative;
+		display: inline-block;
+		margin-top: 10%;
+		float: right;
+		margin-right: 8%;
+	}
+	
+	#email_title{
+		font-family: "Lust Display Regular";
+		padding-bottom: 4%;
+		text-decoration: underline;
+		font-size: 1.25em;
+	}
+	
+	#email{
+		padding-bottom: 4%;
+	}
+	
+	#phone_title{
+		text-decoration: underline;
+		padding-bottom: 4%;
+	}
+	
+	#copyright_contact{
+		padding-top: 1.4%;
+		padding-right: 17%;
+		float: right;
+		display: inline-block;
+		color: #df9292;
+	}
+	
+	#footer_contact img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: .8% 1%;
+		display: inline-block;
+	}
+	
+}
+
+
+
+/* iPads (portrait and landscape), max-width equals the container size of the desktop version, 2 columns----------- */
+/* min-width, the minimum and up----------- */
+/* max-width, the maximum and less----------- */
+@media all 
+and (min-width: 715px)
+and (max-width: 900px) {
+
+	body {
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; /*sets a font face to the whole site*/
+		font-size: 0.9em; /*sets a font size to the whole site*/
+		line-height: 1em; /*sets a font height or leading to the whole site*/
+		color: black; /*sets a font color to the whole site*/
+		margin: 0px auto;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+	
+	#container_home{
+		margin: 0px auto;
+		position: relative;
+		background-color: #58658c;
+	}
+	
+	#mike{
+		color: #58658c;
+		position: relative;
+		background-color: white;
+		padding-bottom: 20%;
+	}	
+	
+	#nav_home{
+		text-align: center;
+		padding: 5%;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		margin: auto;
+	}
+	
+	ul{
+		list-style-type: none;
+	}
+	
+	li{
+		display: inline;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+
+	#h_home{
+		margin: 6%;
+		color: #58658c;
+	}
+	
+	#h_home:hover{
+		text-decoration: underline;
+	}
+	
+	#a_home{
+		color: #d8b296;
+		margin: 6%;
+	}
+	
+	#a_home:hover{
+		text-decoration: underline;
+	}
+	
+	#p_home{
+		color: #48625c;
+		margin: 6%;
+	}
+	
+	#p_home:hover{
+		text-decoration: underline;
+	}
+	
+	#c_home{
+		color: #df9292;
+		margin: 6%;
+	}
+	
+	#c_home:hover{
+		text-decoration: underline;
+	}
+	
+	#mike_intro{
+		text-align: left;
+		margin: 15% 15%;
+		line-height: 2em;
+	}
+	
+	#home_float{
+		line-height: 9.5em;
+		width: 100%;
+		position: absolute;                 
+   		transform: translate(0, -50%);
+		z-index: 1000;
+	}
+	
+	#mike_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		position: absolute;
+		z-index: 1001;
+		float: left;
+		color: #58658c;
+		left: -1.5%;
+		letter-spacing: -0.02em;
+		margin-top: -14.5%;
+	}
+	
+	#huynh_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: absolute;
+		float: right;
+		z-index: 1000;
+		right: -1.65%;
+		letter-spacing: -0.02em;
+		margin-top: -1.1%;
+	}
+	
+	#huynh{
+		background-color: #58658c;
+		color: white;
+		position: relative;
+		padding-bottom: 15%;
+		padding-top: 20%;
+	}
+	
+	#huynh_intro{
+		text-align: right;
+		margin: 20% 15% 30% 0;
+		line-height: 2em;
+	}
+	
+	footer{
+		background-color: white;
+		position: relative;
+		bottom: 0;
+		left: 0;
+		height: 45px;
+		color: #58658c;
+		text-align: center;
+		font-size: 90%;
+	}	
+	
+	#footer_home img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+	
+	#copyright_home{
+		padding-top: 2%;
+		padding-right: 17%;
+		float: right;
+		display: inline-block;
+	}
+	
+	#container_art{
+		margin: 0px auto;
+		position: relative;
+		background-color: #d8b296;
+	}
+	
+	#Art{
+		background-color: white;
+		padding-bottom: 30%;
+	}
+	
+	#nav_artwork{
+		text-align: right;
+		margin: auto;
+		color: #d8b296;
+		padding: 4% 2%;
+	}
+	
+	#h_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#h_art:hover{
+		text-decoration: underline;
+	}
+	
+	#a_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#a_art:hover{
+		text-decoration: underline;
+	}
+	
+	#p_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#p_art:hover{
+		text-decoration: underline;
+	}
+	
+	#c_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#c_art:hover{
+		text-decoration: underline;
+	}
+	
+	#work{
+		background-color: #d8b296;
+	}
+	
+	#artwork_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+		overflow: hidden;
+	}
+	
+	#art_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #d8b296;
+		left: 0;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#work_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 0;
+		letter-spacing: -0.04em;
+		margin-top: -1.1%;
+	}
+	
+	#work_intro{
+		color: white;
+		text-align: left;
+		margin-top: 30%;
+		line-height: 2em;
+		margin-left: 10%;
+		padding-bottom: 10%;
+	}
+	
+	#gallery{
+		position: relative;
+		padding-bottom: 35%;
+		padding-left: 9%;
+	}
+
+	#p1_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		margin-left: 2%;
+		text-align: center;
+	}
+	
+	#as_1{
+		color: #d8b296;
+		margin-top: 4%;
+		margin-left: 2%;
+		line-height: 2em;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 8%;
+	}
+	
+	#project_1{
+		background-color: white;
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_1{
+		width: 600px;
+		height: 300px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		padding-top: 10%;
+		display: inline-block;
+	}
+	
+	#box_1 img{
+		display: none;
+		position: absolute;
+	}
+	
+	#box_1 .active_1{
+		display: block;
+		float: left;
+	}
+	
+	#pic_1{
+		width: 42%;
+		height: 88%;
+		margin-top: -9%;
+		margin-left: 29.5%;
+	}
+	
+	[id^=pic_]{
+		width: 88%;
+		height: 88%;
+		margin-top: -9%;
+		margin-left: 6%;
+	}
+	
+	#pic_14{
+		width: 90%;
+		height: 75%;
+		margin-top: -5%;
+		margin-left: 5%;
+	}
+	
+	#la_p1{
+		font-size: 4em;
+		margin-top: 16%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p1{
+		font-size: 4em;
+		margin-top: 16%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#project_2{
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_2{
+		background-color: #383739;
+		width: 400px;
+		height: 500px;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#box_2 img{
+		display: none;
+	}
+	
+	#box_2 .active_2{
+		display: block;
+		float: left;
+	}
+	
+	[id^=danny_]{
+		width: 85%;
+		height: 85%;
+		margin-top: 8%;
+		margin-left: 5%;
+	}
+	
+	#la_p2{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	#ra_p2{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+	}
+	
+	#p2_title{
+		text-align: center;
+		right: 5%;
+		width: 100%;
+		margin-top: 1%;
+		font-family: "Lust Display Regular";
+		color: white;
+		font-size: 1.25em;
+	}
+	
+	#as_2{
+		color: white;
+		margin-top: 4%;
+		width: 100%;
+		line-height: 2em;
+		text-align: center;
+		padding-bottom: 8%;
+	}
+	
+	#project_3{
+		width: 100%;
+		background-color: white;
+		padding-top: 12%;
+		padding-bottom: 15%;
+		text-align: center;
+	}
+	
+	#box_3 img{
+		display: none;
+	}
+	
+	#box_3 .active_3{
+		display: block;
+		float: left;
+	}
+	
+	#pop_3{
+		width: 600px;
+		height: 400px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		padding-top: 10%;
+		display: inline-block;
+	}
+	
+	#women_1{
+		width: 65%;
+		height: 65%;
+		margin-top: -6.5%;
+		margin-left: 16.5%;
+	}
+	
+	[id^=women_]{
+		width: 93%;
+		height: 93%;
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+	
+	#la_p3{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p3{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#p3_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		text-align: center;
+		position: relative;
+	}
+	
+	#as_3{
+		color: #d8b296;
+		margin-top: 4%;
+		line-height: 2em;
+		padding-bottom: 8%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#project_5{
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_5{
+		background-color: #383739;
+		width: 400px;
+		height: 500px;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#p5_title{
+		text-align: center;
+		left: 5%;
+		font-family: "Lust Display Regular";
+		width: 100%;
+		margin-top: 1%;
+		font-size: 1.25em;
+		color: white;		
+	}
+	
+	#as_5{
+		text-align: center;
+		color: white;
+		margin-top: 5%;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 8%;
+	}
+	
+	#box_5 img{
+		display: none;
+	}
+	
+	#box_5 .active_5{
+		display: block;
+		float: left;
+	}
+	
+	[id^=mobile_]{
+		width: 60%;
+		height: 60%;
+		margin-top: 9%;
+		margin-left: 19%;
+	}
+	
+	#la_p5{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	#ra_p5{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+	}
+	
+	#p4_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#as_4{
+		text-align: center;
+		color: #d8b296;
+		margin-top: 4%;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 8%;
+	}
+	
+	#project_4{
+		cursor: pointer;
+		background-color: white;
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_4{
+		width: 600px;
+		height: 325px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#box_4 img{
+		display: none;
+		position: absolute;
+	}
+	
+	#box_4 .active_4{
+		display: block;
+		float: left;
+	}
+	
+	[id^=n4cc_]{
+		width: 90%;
+		height: 90%;
+		margin-top: 2.5%;
+		margin-left: 5%;
+	}
+	
+	#la_p4{
+		font-size: 4em;
+		margin-top: 24%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p4{
+		font-size: 4em;
+		margin-top: 24%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#project_6{
+		width: 100%;
+		background-color: #d8b296;
+		padding-top: 10%;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	
+	#box_6 img{
+		display: none;
+	}
+	
+	#box_6 .active_6{
+		display: block;
+		float: left;
+	}
+	
+	#pop_6{
+		width: 600px;
+		height: 550px;
+		background-color: #383739;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#b2_1{
+		width: 50%;
+		height: 50%;
+		margin-top: 8.5%;
+		margin-left: 23%;
+	}
+	
+	[id^=b2_]{
+		width: 90%;
+		height: 90%;
+		margin-top: 12.5%;
+		margin-left: 4%;
+	}
+	
+	#b2_11{
+		width: 50%;
+		height: 50%;
+		margin-top: 8.5%;
+		margin-left: 23%;
+	}
+	
+	#la_p6{
+		font-size: 4em;
+		margin-top: 43%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: white;
+	}
+	
+	#ra_p6{
+		font-size: 4em;
+		margin-top: 43%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: white;
+	}
+	
+	#p6_title{
+		color: white;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 5%;
+		position: relative;
+	}
+	
+	#as_6{
+		color: white;
+		margin-top: 4%;
+		line-height: 2em;
+		padding-bottom: 8%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#art_space{
+		padding-bottom: 35%;
+	}
+	
+	#copyright_art{
+		padding-top: 2%;
+		padding-right: 17%;
+		float: right;
+		display: inline-block;
+		color: #d8b296;
+	}
+	
+	#footer_art img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+	
+	#container_poetry{
+		margin: 0px auto;
+		position: relative;
+		background-color: #48625c;
+	}
+	
+	#Poet{
+		background-color: white;
+		padding-bottom: 30%;
+	}
+	
+	#nav_poetry{
+		text-align: right;
+		margin: auto;
+		color: #48625c;
+		padding: 4% 2%;
+	}
+	
+	#h_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#h_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#a_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#a_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#p_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#p_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#c_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#c_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#ry{
+		background-color: #48625c;
+	}
+	
+	#poetry_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+	}
+	
+	#poet_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #48625c;
+		left: -1.95%;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+	}
+	
+	#ry_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 3%;
+		letter-spacing: -0.04em;
+		padding-top: 18%;
+	}
+	
+	#ry_intro{
+		color: white;
+		text-align: left;
+		padding-top: 25%;
+		line-height: 2em;
+		padding-bottom: 10%;
+		padding-left: 10%;
+	}
+	
+	#alleyway_overlay{
+		position: fixed; 
+		width: 100%; 
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		visibility: hidden;
+	}
+	
+	.popup_left{
+		color: white;
+		padding-left: 10%;
+		cursor: pointer;
+	}
+	
+	.popup_left:hover{
+		text-decoration: underline;
+	}
+	
+	.popup_right{
+		text-align: right;
+		padding-right: 10%;
+		cursor: pointer;
+		color: #48625c;
+	}
+	
+	.popup_right:hover{
+		text-decoration: underline;
+	}
+	
+	.opt_out{
+		cursor: pointer;
+		padding-left: 85%;
+		margin-bottom: 3%;
+	}
+	
+	.opt_out:hover{
+		text-decoration: underline;
+	}
+	
+	#first_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+		text-align: right;
+	}
+	
+	#The_Alleyway{
+		text-align: right;
+		color: #48625c;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 2%;
+	}
+	
+	#alleyway_title{
+		color: #48625c;
+		padding-bottom: 2%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#ap_title{
+		color: white;
+		font-family: "Lust Display Regular";
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#alleyway_popup{
+		width: 90%;
+		height: 70%;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 15%;
+		left: 5%;
+		color: white;
+		opacity: 1;
+	}
+	
+	.The_Alleyway{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 5%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#second_poem{
+		padding-bottom: 10%;
+	}
+	
+	#Family_secrets{
+		text-align: left;
+		color: white;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 5%;
+		padding-left: 10%;
+	}
+	
+	#ip_title{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#incident_popup{
+		width: 90%;
+		height: 550px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 3%;
+		left: 5%;
+		color: white;
+		opacity: 1;
+	}
+	
+	#secrets{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 4%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#incident_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		visibility: hidden;
+	}
+	
+	#third_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+	}
+	
+	#sex_title{
+		color: #48625c;
+	}
+	
+	#sex{
+		text-align: right;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 5%;
+	}
+	
+	#sex_popup{
+		width: 95%;
+		height: 575px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 1%;
+		left: 2.5%;
+		color: white;
+		opacity: 1;
+		overflow-y: scroll;
+	}
+	
+	.sex{
+		padding-left: 5%;
+		line-height: 1.5em;
+		padding-top: 3%;
+		column-count: 3;
+		column-width: 200px;
+		column-gap: 5%;
+	}
+	
+	#sp_title{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#sp_opt{
+		padding-left: 90%;
+	}
+	
+	#sex_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		visibility: hidden;
+	}
+	
+	#forth_poem{
+		padding-bottom: 10%;
+	}
+	
+	#a_mess{
+		color: white;
+		text-align: left;
+		line-height: 2em;
+		padding-left: 10%;
+		padding-top: 5%;
+	}
+	
+	#mess_popup{
+		width: 75%;
+		height: 350px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 20%;
+		left: 12.5%;
+		color: white;
+		opacity: 1;
+	}
+	
+	#mp_title{
+		text-align: center;
+		padding-top: 5%;
+		font-size: 1.5em;
+	}
+	
+	#mess{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 5%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#mp_opt{
+		padding-top: 5%;
+	}
+	
+	#mess_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		visibility: hidden;
+	}
+	
+	#fifth_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+	}
+	
+	#kindness_title{
+		color: #48625c;
+	}
+	
+	#kindness{
+		color: #48625c;
+		text-align: right;
+		padding-top: 5%;
+		line-height: 2em;
+		padding-right: 10%;
+	}
+	
+	#kindness_popup{
+		width: 95%;
+		height: 600px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 0;
+		left: 2.5%;
+		color: white;
+		opacity: 1;
+		overflow-y: scroll;
+	}
+
+	#kp_title{
+		text-align: center;
+		margin-top: 4%;
+		font-size: 1.5em;
+	}
+	
+	.kindness{
+		padding-left: 2%;
+		line-height: 1.5em;
+		margin-top: 2%;
+		column-count: 5;
+		column-width: 200px;
+		column-gap: 5%;
+	}
+	
+	#kp_opt{
+		margin-top: -3%;
+		padding-left: 92%;
+		width: 5%;
+	}
+	
+	#kindness_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		visibility: hidden;
+	}
+	
+	#space{
+		background-color: #48625c;
+		padding-bottom: 20%;
+	}
+	
+	#space_end{
+		text-align: center;
+		padding-top: 15%;
+		color: white;
+	}
+	
+	header{
+		color: white;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+	}
+	
+	#alleyway_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-left: 10%;
+	}
+	
+	#secrets_title{
+		padding-top:10%;
+		text-align: left;
+		padding-left: 10%;
+	}
+	
+	#sex_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#mess_title{
+		padding-top: 10%;
+		text-align: left;
+		padding-left: 10%;
+	}
+	
+	#kindness_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#copyright_poetry{
+		padding-top: 2.5%;
+		padding-right: 12%;
+		float: right;
+		display: inline-block;
+		color: #48625c;
+	}
+	
+	#footer_poetry img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+	
+	#container_contact{
+		margin: 0px auto;
+		position: relative;
+		background-color: #df9292;
+	}
+	
+	#Con{
+		padding-bottom: 30%;
+		background-color: white;
+	}
+	
+	#nav_contact{
+		text-align: right;
+		margin: auto;
+		color: #df9292;
+		padding: 4% 2%;
+	}
+	
+	#h_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#h_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#a_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#a_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#p_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#p_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#c_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#c_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#tact{
+		background-color: #df9292;
+		padding-bottom: 40%;
+	}
+	
+	#contact_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+		overflow :hidden;
+	}
+	
+	#con_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #df9292;
+		left: -1%;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#tact_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 2.12%;
+		letter-spacing: -0.04em;
+		margin-top: -1.1%;
+	}
+	
+	#tact_intro{
+		color: white;
+		text-align: center;
+		padding-top: 25%;
+		line-height: 2em;
+	}
+	
+	#form{
+		position: relative;
+		margin-left: 14%;
+		margin-top: 8%;
+		line-height: 1.5em;
+		background-color: black;
+		opacity: 0.8;
+		width: 72%;
+		padding-top: 6%;
+		padding-bottom: 6%;
+		border-radius: 15px;
+	}
+	
+	form input{
+		width: 80%;
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 2px;
+	}
+	
+	textarea{
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	#submit{
+		width: 82.5%;
+		background-color:aliceblue;
+		border: none;
+		color: #df9292;
+		border-radius: 2px;
+		margin-top: 4%;
+		font-size: 0.95em;
+		height: 40px;
+	}
+	
+	#submit:hover{
+		background-color: #d8b296;
+		color: white;
+	}
+	
+	#submit:focus{
+		outline: none;
+	}
+	
+	input[type=text]{
+		border: none;
+		color: white;
+		padding-left: 1%;
+		height: 25px;
+		background: none;
+		border-bottom: 1.5px solid white;
+		overflow-wrap: break-word;
+		line-height: 1.5em;
+	}
+	
+	::placeholder{
+		color: white;
+		font-style: italic;
+	}
+	
+	input[type=text]:focus{
+		outline:none;
+	}
+	
+	textarea[type=text]{
+		border: none;
+		color: white;
+		padding-left: 2%;
+		background: none;
+		border-bottom: 1.5px solid white;
+		overflow-wrap: break-word;
+		width: 80%;
+		resize:none;
+		height: 300px;
+		line-height: 1.5em;
+	}
+	
+	textarea[type=text]:focus{
+		outline:none;
+	}
+	
+	#name{
+		position: relative;
+	}
+	
+	input:focus ~ #name_label,
+	input:not(:focus):valid ~ #name_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.95em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+
+	#name_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+		margin: 0px auto;
+	}
+	
+	#email_adress{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#email_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	input:focus ~ #email_label,
+	input:not(:focus):valid ~ #email_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#subject{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#subject_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	input:focus ~ #subject_label,
+	input:not(:focus):valid ~ #subject_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#message{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#message_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	textarea:focus ~ #message_label,
+	textarea:not(:focus):valid ~ #message_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#not_form{
+		padding-top: 5%;
+		color: white;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 10%;
+	} 
+	
+	#info_p{
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	#email_info{
+		text-align: center;
+		margin-top: 5%;
+		width: 100%;
+		display: inline-block;
+	}
+	
+	#mail_p{
+		text-align: center;
+		display: inline-block;
+	}
+	
+	#titles{
+		width: 100%;
+		position: relative;
+		margin-top: 5%;
+		text-align: center;
+	}
+	
+	#contact_info{
+		font-family: "Lust Display Regular";
+		padding-bottom: 2%;
+		text-decoration: underline;
+		font-size: 1.25em;
+		display: inline-block;
+	}
+	
+	#email_info{
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		margin-top: 8%;
+	}
+	
+	#email_title{
+		font-family: "Lust Display Regular";
+		padding-bottom: 1%;
+		text-decoration: underline;
+		font-size: 1.25em;
+	}
+	
+	#email{
+		padding-bottom: 10%;
+		display: inline-block;
+	}
+	
+	#phone_title{
+		text-decoration: underline;
+		padding-bottom: 5%;
+	}
+	
+	#copyright_contact{
+		padding-top: 2%;
+		padding-right: 14%;
+		float: right;
+		display: inline-block;
+		color: #df9292;
+	}
+	
+	#footer_contact img{
+		width: 3%;
+		height: 3%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+}
+
+/* Smartphones (portrait and landscape), max-width equals the min-width of the ipad version, 1 column----------- */
+/* max-width, the maximum and less----------- */
+@media all 
+and (max-width: 715px) {
+
+	img {
+		max-width: 100%;
+	}
+
+	body {
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; /*sets a font face to the whole site*/
+		font-size: 0.85em; /*sets a font size to the whole site*/
+		line-height: 1em; /*sets a font height or leading to the whole site*/
+		color: black; /*sets a font color to the whole site*/
+		margin: 0px auto;
+		min-width: 600px;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+	
+	#container_home{
+		margin: 0px auto;
+		position: relative;
+		background-color: #58658c;
+	}
+	
+	#mike{
+		color: #58658c;
+		position: relative;
+		background-color: white;
+		padding-bottom: 20%;
+	}	
+	
+	#nav_home{
+		text-align: center;
+		padding: 5%;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		margin: auto;
+	}
+	
+	ul{
+		list-style-type: none;
+	}
+	
+	li{
+		display: inline;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+
+	#h_home{
+		margin: 6%;
+		color: #58658c;
+	}
+	
+	#h_home:hover{
+		text-decoration: underline;
+	}
+	
+	#a_home{
+		color: #d8b296;
+		margin: 6%;
+	}
+	
+	#a_home:hover{
+		text-decoration: underline;
+	}
+	
+	#p_home{
+		color: #48625c;
+		margin: 6%;
+	}
+	
+	#p_home:hover{
+		text-decoration: underline;
+	}
+	
+	#c_home{
+		color: #df9292;
+		margin: 6%;
+	}
+	
+	#c_home:hover{
+		text-decoration: underline;
+	}
+	
+	#mike_intro{
+		text-align: left;
+		margin: 15% 15%;
+		line-height: 2em;
+	}
+	
+	#home_float{
+		line-height: 930%;
+		width: 100%;
+		position: absolute;                 
+   		transform: translate(0, -50%);
+		z-index: 1000;
+	}
+	
+	#mike_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 27vmin;
+		font-weight: bold;
+		position: absolute;
+		z-index: 1001;
+		float: left;
+		color: #58658c;
+		left: -1.9%;
+		letter-spacing: -0.02em;
+		margin-top: -13%;
+	}
+	
+	#huynh_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 27vmin;
+		font-weight: bold;
+		color: white;
+		position: absolute;
+		float: right;
+		z-index: 1000;
+		right: -1.65%;
+		letter-spacing: -0.02em;
+		margin-top: -1.1%;
+	}
+	
+	#huynh{
+		background-color: #58658c;
+		color: white;
+		position: relative;
+		padding-bottom: 15%;
+		padding-top: 20%;
+	}
+	
+	#huynh_intro{
+		text-align: right;
+		margin: 20% 15% 30% 0;
+		line-height: 2em;
+	}
+	
+	footer{
+		background-color: white;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 45px;
+		color: #58658c;
+		text-align: center;
+		font-size: 90%;
+	}	
+	
+	#footer_home img{
+		width: 4%;
+		height: 4%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+	
+	#copyright_home{
+		padding-top: 2.5%;
+		padding-right: 10%;
+		float: right;
+		display: inline-block;
+	}
+	
+	#container_art{
+		margin: 0px auto;
+		position: relative;
+		background-color: #d8b296;
+	}
+	
+	#Art{
+		background-color: white;
+		padding-bottom: 30%;
+	}
+	
+	#nav_artwork{
+		text-align: right;
+		margin: auto;
+		color: #d8b296;
+		padding: 4% 2%;
+	}
+	
+	#h_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#h_art:hover{
+		text-decoration: underline;
+	}
+	
+	#a_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#a_art:hover{
+		text-decoration: underline;
+	}
+	
+	#p_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#p_art:hover{
+		text-decoration: underline;
+	}
+	
+	#c_art{
+		margin: 3%;
+		color: #d8b296;
+	}
+	
+	#c_art:hover{
+		text-decoration: underline;
+	}
+	
+	#work{
+		background-color: #d8b296;
+	}
+	
+	#artwork_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+		overflow: hidden;
+	}
+	
+	#art_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #d8b296;
+		left: 0;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#work_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 0;
+		letter-spacing: -0.04em;
+		margin-top: -1.1%;
+	}
+	
+	#work_intro{
+		color: white;
+		text-align: left;
+		margin-top: 30%;
+		line-height: 2em;
+		margin-left: 10%;
+		padding-bottom: 10%;
+	}
+	
+	#gallery{
+		position: relative;
+		padding-bottom: 35%;
+		padding-left: 9%;
+	}
+
+	#p1_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		margin-left: 2%;
+		text-align: center;
+	}
+	
+	#as_1{
+		color: #d8b296;
+		margin-top: 4%;
+		margin-left: 2%;
+		line-height: 2em;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 8%;
+	}
+	
+	#project_1{
+		background-color: white;
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_1{
+		width: 550px;
+		height: 275px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		padding-top: 10%;
+		display: inline-block;
+	}
+	
+	#box_1 img{
+		display: none;
+		position: absolute;
+	}
+	
+	#box_1 .active_1{
+		display: block;
+		float: left;
+	}
+	
+	#pic_1{
+		width: 42%;
+		height: 88%;
+		margin-top: -7.5%;
+		margin-left: 29.5%;
+	}
+	
+	[id^=pic_]{
+		width: 88%;
+		height: 88%;
+		margin-top: -7.5%;
+		margin-left: 6%;
+	}
+	
+	#pic_14{
+		width: 90%;
+		height: 75%;
+		margin-top: -3%;
+		margin-left: 5%;
+	}
+	
+	#la_p1{
+		font-size: 4em;
+		margin-top: 16%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p1{
+		font-size: 4em;
+		margin-top: 16%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#project_2{
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_2{
+		background-color: #383739;
+		width: 400px;
+		height: 500px;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#box_2 img{
+		display: none;
+	}
+	
+	#box_2 .active_2{
+		display: block;
+		float: left;
+	}
+	
+	[id^=danny_]{
+		width: 85%;
+		height: 85%;
+		margin-top: 8%;
+		margin-left: 5%;
+	}
+	
+	#la_p2{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	#ra_p2{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+	}
+	
+	#p2_title{
+		text-align: center;
+		right: 5%;
+		width: 100%;
+		margin-top: 1%;
+		font-family: "Lust Display Regular";
+		color: white;
+		font-size: 1.25em;
+	}
+	
+	#as_2{
+		color: white;
+		margin-top: 4%;
+		width: 100%;
+		line-height: 2em;
+		text-align: center;
+		padding-bottom: 8%;
+	}
+	
+	#project_3{
+		width: 100%;
+		background-color: white;
+		padding-top: 12%;
+		padding-bottom: 15%;
+		text-align: center;
+	}
+	
+	#box_3 img{
+		display: none;
+	}
+	
+	#box_3 .active_3{
+		display: block;
+		float: left;
+	}
+	
+	#pop_3{
+		width: 550px;
+		height: 350px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		padding-top: 10%;
+		display: inline-block;
+	}
+	
+	#women_1{
+		width: 65%;
+		height: 65%;
+		margin-top: -6.5%;
+		margin-left: 16.5%;
+	}
+	
+	[id^=women_]{
+		width: 93%;
+		height: 93%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	
+	#la_p3{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p3{
+		font-size: 4em;
+		margin-top: 25%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#p3_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		text-align: center;
+		position: relative;
+	}
+	
+	#as_3{
+		color: #d8b296;
+		margin-top: 4%;
+		line-height: 2em;
+		padding-bottom: 8%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#project_5{
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_5{
+		background-color: #383739;
+		width: 400px;
+		height: 500px;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#p5_title{
+		text-align: center;
+		left: 5%;
+		font-family: "Lust Display Regular";
+		width: 100%;
+		margin-top: 1%;
+		font-size: 1.25em;
+		color: white;		
+	}
+	
+	#as_5{
+		text-align: center;
+		color: white;
+		margin-top: 5%;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 8%;
+	}
+	
+	#box_5 img{
+		display: none;
+	}
+	
+	#box_5 .active_5{
+		display: block;
+		float: left;
+	}
+	
+	[id^=mobile_]{
+		width: 60%;
+		height: 60%;
+		margin-top: 9%;
+		margin-left: 19%;
+	}
+	
+	#la_p5{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	#ra_p5{
+		font-size: 4em;
+		margin-top: 58%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+	}
+	
+	#p4_title{
+		color: #d8b296;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#as_4{
+		text-align: center;
+		color: #d8b296;
+		margin-top: 4%;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 8%;
+	}
+	
+	#project_4{
+		cursor: pointer;
+		background-color: white;
+		width: 100%;
+		padding-bottom: 15%;
+		padding-top: 12%;
+		text-align: center;
+	}
+	
+	#pop_4{
+		width: 550px;
+		height: 300px;
+		background-color: #d8b296;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#box_4 img{
+		display: none;
+		position: absolute;
+	}
+	
+	#box_4 .active_4{
+		display: block;
+		float: left;
+	}
+	
+	[id^=n4cc_]{
+		width: 90%;
+		height: 90%;
+		margin-top: 2.5%;
+		margin-left: 5%;
+	}
+	
+	#la_p4{
+		font-size: 4em;
+		margin-top: 24%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#ra_p4{
+		font-size: 4em;
+		margin-top: 24%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: #383739;
+	}
+	
+	#project_6{
+		width: 100%;
+		background-color: #d8b296;
+		padding-top: 10%;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	
+	#box_6 img{
+		display: none;
+	}
+	
+	#box_6 .active_6{
+		display: block;
+		float: left;
+	}
+	
+	#pop_6{
+		width: 550px;
+		height: 500px;
+		background-color: #383739;
+		color: white;
+		z-index: 1002;
+		position: relative;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	#b2_1{
+		width: 50%;
+		height: 50%;
+		margin-top: 8.5%;
+		margin-left: 23%;
+	}
+	
+	[id^=b2_]{
+		width: 90%;
+		height: 90%;
+		margin-top: 12.5%;
+		margin-left: 4%;
+	}
+	
+	#b2_11{
+		width: 50%;
+		height: 50%;
+		margin-top: 8.5%;
+		margin-left: 23%;
+	}
+	
+	#la_p6{
+		font-size: 4em;
+		margin-top: 43%;
+		margin-left: -10px;
+		float: left;
+		cursor: pointer;
+		color: white;
+	}
+	
+	#ra_p6{
+		font-size: 4em;
+		margin-top: 43%;
+		margin-right: -10px;
+		float: right;
+		cursor: pointer;
+		color: white;
+	}
+	
+	#p6_title{
+		color: white;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 5%;
+		position: relative;
+	}
+	
+	#as_6{
+		color: white;
+		margin-top: 4%;
+		line-height: 2em;
+		padding-bottom: 8%;
+		text-align: center;
+		position: relative;
+	}
+	
+	#art_space{
+		padding-bottom: 35%;
+	}
+	
+	#copyright_art{
+		padding-top: 2.5%;
+		padding-right: 10%;
+		float: right;
+		display: inline-block;
+		color: #d8b296;
+	}
+	
+	#footer_art img{
+		width: 4%;
+		height: 4%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+	
+	#container_poetry{
+		margin: 0px auto;
+		position: relative;
+		background-color: #48625c;
+	}
+	
+	#Poet{
+		background-color: white;
+		padding-bottom: 30%;
+	}
+	
+	#nav_poetry{
+		text-align: right;
+		margin: auto;
+		color: #48625c;
+		padding: 4% 2%;
+	}
+	
+	#h_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#h_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#a_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#a_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#p_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#p_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#c_poetry{
+		margin: 3%;
+		color: #48625c;
+	}
+	
+	#c_poetry:hover{
+		text-decoration: underline;
+	}
+	
+	#ry{
+		background-color: #48625c;
+	}
+	
+	#poetry_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+	}
+	
+	#poet_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #48625c;
+		left: -1.95%;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#ry_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 3%;
+		letter-spacing: -0.04em;
+		margin-top: -1.1%;
+	}
+	
+	#ry_intro{
+		color: white;
+		text-align: left;
+		padding-top: 25%;
+		line-height: 2em;
+		padding-bottom: 10%;
+		padding-left: 10%;
+	}
+	
+	#alleyway_overlay{
+		position: fixed; 
+		width: 100%; 
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		visibility: hidden;
+	}
+	
+	.popup_left{
+		color: white;
+		padding-left: 10%;
+		cursor: pointer;
+	}
+	
+	.popup_left:hover{
+		text-decoration: underline;
+	}
+	
+	.popup_right{
+		text-align: right;
+		padding-right: 10%;
+		cursor: pointer;
+		color: #48625c;
+	}
+	
+	.popup_right:hover{
+		text-decoration: underline;
+	}
+	
+	.opt_out{
+		cursor: pointer;
+		padding-left: 85%;
+		margin-bottom: 3%;
+	}
+	
+	.opt_out:hover{
+		text-decoration: underline;
+	}
+	
+	#first_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+		text-align: right;
+	}
+	
+	#The_Alleyway{
+		text-align: right;
+		color: #48625c;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 2%;
+	}
+	
+	#alleyway_title{
+		color: #48625c;
+		padding-bottom: 2%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#ap_title{
+		color: white;
+		font-family: "Lust Display Regular";
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#alleyway_popup{
+		width: 90%;
+		height: 70%;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 15%;
+		left: 5%;
+		color: white;
+		opacity: 1;
+	}
+	
+	.The_Alleyway{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 5%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#second_poem{
+		padding-bottom: 10%;
+	}
+	
+	#Family_secrets{
+		text-align: left;
+		color: white;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 5%;
+		padding-left: 10%;
+	}
+	
+	#ip_title{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#incident_popup{
+		width: 90%;
+		height: 550px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 3%;
+		left: 5%;
+		color: white;
+		opacity: 1;
+	}
+	
+	#secrets{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 4%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#incident_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		visibility: hidden;
+	}
+	
+	#third_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+	}
+	
+	#sex_title{
+		color: #48625c;
+	}
+	
+	#sex{
+		text-align: right;
+		line-height: 2em;
+		padding-right: 10%;
+		padding-top: 5%;
+	}
+	
+	#sex_popup{
+		width: 95%;
+		height: 575px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 1%;
+		left: 2.5%;
+		color: white;
+		opacity: 1;
+		overflow-y: scroll;
+	}
+	
+	.sex{
+		padding-left: 5%;
+		line-height: 1.5em;
+		padding-top: 3%;
+		column-count: 3;
+		column-width: 200px;
+		column-gap: 5%;
+	}
+	
+	#sp_title{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 1.5em;
+	}
+	
+	#sp_opt{
+		padding-left: 90%;
+	}
+	
+	#sex_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		visibility: hidden;
+	}
+	
+	#forth_poem{
+		padding-bottom: 10%;
+	}
+	
+	#a_mess{
+		color: white;
+		text-align: left;
+		line-height: 2em;
+		padding-left: 10%;
+		padding-top: 5%;
+	}
+	
+	#mess_popup{
+		width: 75%;
+		height: 350px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 20%;
+		left: 12.5%;
+		color: white;
+		opacity: 1;
+	}
+	
+	#mp_title{
+		text-align: center;
+		padding-top: 5%;
+		font-size: 1.5em;
+	}
+	
+	#mess{
+		padding-left: 10%;
+		line-height: 1.5em;
+		padding-top: 5%;
+		column-count: 2;
+		column-width: 200px;
+	}
+	
+	#mp_opt{
+		padding-top: 5%;
+	}
+	
+	#mess_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		visibility: hidden;
+	}
+	
+	#fifth_poem{
+		background-color: white;
+		color: #48625c;
+		padding-bottom: 10%;
+	}
+	
+	#kindness_title{
+		color: #48625c;
+	}
+	
+	#kindness{
+		color: #48625c;
+		text-align: right;
+		padding-top: 5%;
+		line-height: 2em;
+		padding-right: 10%;
+	}
+	
+	#kindness_popup{
+		width: 95%;
+		height: 600px;
+		margin: 0px auto;
+		background-color: #48625c;
+		border-radius: 10px;
+		position: fixed;
+		z-index: 1002;
+		top: 0;
+		left: 2.5%;
+		color: white;
+		opacity: 1;
+		overflow-y: scroll;
+	}
+
+	#kp_title{
+		text-align: center;
+		margin-top: 4%;
+		font-size: 1.5em;
+	}
+	
+	.kindness{
+		padding-left: 2%;
+		line-height: 1.5em;
+		margin-top: 2%;
+		column-count: 5;
+		column-width: 200px;
+		column-gap: 5%;
+	}
+	
+	#kp_opt{
+		margin-top: -3%;
+		padding-left: 92%;
+		width: 5%;
+	}
+	
+	#kindness_overlay{
+		position: fixed; 
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1001; 
+		cursor: pointer;
+		background-size: cover;
+		visibility: hidden;
+	}
+	
+	#space{
+		background-color: #48625c;
+		padding-bottom: 20%;
+	}
+	
+	#space_end{
+		text-align: center;
+		padding-top: 15%;
+		color: white;
+	}
+	
+	header{
+		color: white;
+		font-family: "Lust Display Regular";
+		font-size: 1.25em;
+	}
+	
+	#alleyway_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-left: 10%;
+	}
+	
+	#secrets_title{
+		padding-top:10%;
+		text-align: left;
+		padding-left: 10%;
+	}
+	
+	#sex_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#mess_title{
+		padding-top: 10%;
+		text-align: left;
+		padding-left: 10%;
+	}
+	
+	#kindness_title{
+		padding-top: 10%;
+		text-align: right;
+		padding-right: 10%;
+	}
+	
+	#copyright_poetry{
+		padding-top: 2%;
+		padding-right: 10%;
+		float: right;
+		display: inline-block;
+		color: #48625c;
+	}
+	
+	#footer_poetry img{
+		width: 4%;
+		height: 4%;
+		float: right;
+		padding: 1.5% 1%;
+		display: inline-block;
+	}
+	
+	#container_contact{
+		min-width: 600px;
+		margin: 0px auto;
+		position: relative;
+		background-color: #df9292;
+	}
+	
+	#Con{
+		padding-bottom: 30%;
+		background-color: white;
+	}
+	
+	#nav_contact{
+		text-align: right;
+		margin: auto;
+		color: #df9292;
+		padding: 4% 2%;
+	}
+	
+	#h_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#h_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#a_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#a_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#p_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#p_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#c_contact{
+		margin: 3%;
+		color: #df9292;
+	}
+	
+	#c_contact:hover{
+		text-decoration: underline;
+	}
+	
+	#tact{
+		background-color: #df9292;
+		padding-bottom: 40%;
+	}
+	
+	#contact_float{
+		line-height: 9.5em;
+		position: absolute;                                                            
+   		transform: translate(0, -50%);
+		z-index: 1000;
+		overflow :hidden;
+	}
+	
+	#con_float{
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		position: relative;
+		z-index: 1000;
+		float: left;
+		color: #df9292;
+		left: -1%;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		margin-top: 0.75%;
+	}
+	
+	#tact_float{
+		text-align: right;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 12.5em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		float: right;
+		z-index: 1000;
+		right: 2.12%;
+		letter-spacing: -0.04em;
+		margin-top: -1.1%;
+	}
+	
+	#tact_intro{
+		color: white;
+		text-align: center;
+		padding-top: 25%;
+		line-height: 2em;
+	}
+	
+	#form{
+		position: relative;
+		margin-left: 14%;
+		margin-top: 8%;
+		line-height: 1.5em;
+		background-color: black;
+		opacity: 0.8;
+		width: 72%;
+		padding-top: 6%;
+		padding-bottom: 6%;
+		border-radius: 15px;
+	}
+	
+	form input{
+		width: 80%;
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 2px;
+	}
+	
+	textarea{
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	#submit{
+		width: 82.5%;
+		background-color:aliceblue;
+		border: none;
+		color: #df9292;
+		border-radius: 2px;
+		margin-top: 4%;
+		font-size: 0.95em;
+		height: 40px;
+	}
+	
+	#submit:hover{
+		background-color: #d8b296;
+		color: white;
+	}
+	
+	#submit:focus{
+		outline: none;
+	}
+	
+	input[type=text]{
+		border: none;
+		color: white;
+		padding-left: 1%;
+		height: 25px;
+		background: none;
+		border-bottom: 1.5px solid white;
+		overflow-wrap: break-word;
+		line-height: 1.5em;
+	}
+	
+	::placeholder{
+		color: white;
+		font-style: italic;
+	}
+	
+	input[type=text]:focus{
+		outline:none;
+	}
+	
+	textarea[type=text]{
+		border: none;
+		color: white;
+		padding-left: 2%;
+		background: none;
+		border-bottom: 1.5px solid white;
+		overflow-wrap: break-word;
+		width: 80%;
+		resize:none;
+		height: 300px;
+		line-height: 1.5em;
+	}
+	
+	textarea[type=text]:focus{
+		outline:none;
+	}
+	
+	#name{
+		position: relative;
+	}
+	
+	input:focus ~ #name_label,
+	input:not(:focus):valid ~ #name_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.95em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+
+	#name_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+		margin: 0px auto;
+	}
+	
+	#email_adress{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#email_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	input:focus ~ #email_label,
+	input:not(:focus):valid ~ #email_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#subject{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#subject_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	input:focus ~ #subject_label,
+	input:not(:focus):valid ~ #subject_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#message{
+		margin-top: 8%;
+		position: relative;
+	}
+	
+	#message_label {
+		position: absolute;
+	  	pointer-events: none;
+	 	left: 9.5%;
+	  	top: 3px;
+	 	transition: 0.2s ease all;
+		color: white;
+		font-family: "Lust Display Regular";
+	}
+	
+	textarea:focus ~ #message_label,
+	textarea:not(:focus):valid ~ #message_label{
+		left: 9.5%;
+		top: -25px;
+		font-size: 0.9em;
+		color: white;
+		font-family: "Lust Display Regular";
+		pointer-events: none;
+		text-decoration: underline;
+	}
+	
+	#not_form{
+		padding-top: 5%;
+		color: white;
+		line-height: 2em;
+		width: 100%;
+		padding-bottom: 10%;
+	} 
+	
+	#info_p{
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	#email_info{
+		text-align: center;
+		margin-top: 5%;
+		width: 100%;
+		display: inline-block;
+	}
+	
+	#mail_p{
+		text-align: center;
+		display: inline-block;
+	}
+	
+	#titles{
+		width: 100%;
+		position: relative;
+		margin-top: 5%;
+		text-align: center;
+	}
+	
+	#contact_info{
+		font-family: "Lust Display Regular";
+		padding-bottom: 2%;
+		text-decoration: underline;
+		font-size: 1.25em;
+		display: inline-block;
+	}
+	
+	#email_info{
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		margin-top: 8%;
+	}
+	
+	#email_title{
+		font-family: "Lust Display Regular";
+		padding-bottom: 1%;
+		text-decoration: underline;
+		font-size: 1.25em;
+	}
+	
+	#email{
+		padding-bottom: 10%;
+		display: inline-block;
+	}
+	
+	#phone_title{
+		text-decoration: underline;
+		padding-bottom: 5%;
+	}
+	
+	#copyright_contact{
+		padding-top: 2.75%;
+		padding-right: 10%;
+		float: right;
+		display: inline-block;
+		color: #df9292;
+	}
+	
+	#footer_contact img{
+		width: 4%;
+		height: 4%;
+		float: right;
+		padding: 1.75% 1%;
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+
+
+/* Sizes of different screens */
+
+
+/* Smartphones (portrait and landscape) ----------- max-width: 500px and less */
+
+/* iPads (portrait and landscape) ----------- 500px–900px */
+
+/* Desktops and laptops ----------- min-width: 900-980px */
+
+/* Large screens ----------- min-width: 980px and up */
